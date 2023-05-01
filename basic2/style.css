@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    border: 2px solid #c71111;
+    background-color: rgb(80, 136, 103);}
+   
+
+.container .item {
+    border: 2px solid rgb(35, 0, 235);
+    background-color: rgb(243, 255, 81);
+    
+}
+
+.container{display: flex;
+height: 100vh;
+/* 메인축 방향으로 이동 */
+/* justify-content: flex-start; 기본값 */
+/* justify-content: flex-end; */
+/* justify-content: center;  */
+/* justify-content: space-between;  */
+/* justify-content: space-around;
+justify-content: space-evenly; */
+
+/* 메인축과 크로즈방향으로이동(오뎅먹는방향) */
+/* align-items: stretch; 기본값(부모의 높이를 따라감) */
+/* align-items: center; */
+/* align-items: flex-start; 위로붙음 */
+/* align-items: flex-end;바닥에붙음 */
+}
+
+
+
+.container .item{height: 100px;
+width: 200px;}

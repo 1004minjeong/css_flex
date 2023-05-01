@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    border: 2px solid #c71111;
+    background-color: rgb(80, 136, 103);
+    width: 500px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container .item {
+    border: 2px solid rgb(35, 0, 235);
+    background-color: rgb(243, 255, 81);
+    width: 200px;
+    height: 200px;
+
+}

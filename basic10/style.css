@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;}
+
+.container {
+    border: 2px solid #000;
+    background-color: rgb(80, 156, 131);
+    display: flex;
+    width: 500px;
+    height: 500px;
+    text-align: center;
+   
+}
+
+.container .item {
+   width: 200px;
+   height: 200px;
+   background-color: deepskyblue;
+   border: 2px solid black;
+   align-self: center; /* 나자신을 정리(중간) */
+   align-self: flex-start;/* 나자신을 정리(상단) */
+   align-self: flex-end;/* 나자신을 정리(바닥하단) */
+
+   
+}
+
+   

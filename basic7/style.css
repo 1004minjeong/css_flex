@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    border: 2px solid #e6d8d8;
+    background-color: rgb(66, 109, 84);
+}
+
+
+.container .item {
+    border: 2px solid rgb(6, 106, 255);
+    background-color: rgb(248, 0, 136);
+
+}
+
+.container {
+    display: flex;
+
+}
+
+
+
+.container .item:nth-child(1) {
+    width: 200px;
+    flex-shrink: 1;
+
+}
+
+.container .item:nth-child(2) {
+    flex-grow: 0;
+}
